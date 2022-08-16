@@ -1,0 +1,78 @@
+:root{
+    --main-text-color: #212121;
+    --secondary-text-color: #757575;
+    --accent-color: #2196F3;
+    --white-text-color:#FFFFFF;
+}
+
+body{
+    color:var(--main-text-color);
+}
+ul {
+    list-style: none;
+}
+
+/* header */
+.logo{
+    color: #000000;
+}
+
+.web {
+    color: var(--accent-color);
+}
+
+ul {
+    list-style: none;
+}
+
+.site-nav .link {
+    color: var(--main-text-color);
+}
+.contacts .link {
+    color: var(--secondary-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus,
+.contacts .link:hover,
+.contacts .link:focus {
+    color: var(--accent-color);
+}
+
+/* main */
+.hero{
+    background-color:#2F303A;
+}
+.hero-title {
+    color:  var(--white-text-color);
+}
+.btn{
+    color: var(--white-text-color);
+    background-color: var(--accent-color);
+}
+.section-title{
+    color: var(--main-text-color);
+}
+
+.subtitle-text{
+    color: var(--secondary-text-color)
+}
+
+.name{
+    color: var(--main-text-color);
+}
+
+.position{
+    color: var(--secondary-text-color);
+}
+/* footer */
+
+.footer{
+    background-color: #2F303A;;
+}
+.adress{
+    color: var(--white-text-color)
+}
+.footer-link{
+    color: #FFFFFF99;
+}
