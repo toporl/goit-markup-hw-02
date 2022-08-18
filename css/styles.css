@@ -8,7 +8,7 @@
 
 body{
     color:var(--main-text-color);
-    background-color: #F5F4FA;
+    background-color: #FFFFFF;
     font-family: var(--main-font);
     letter-spacing: 0.03em;
 }
@@ -46,6 +46,10 @@ a{
     font-size: 14px;
     line-height: 1,3;
     letter-spacing: 0.02em;
+}
+
+.site-nav .link.current{
+    color: var(--accent-color);
 }
 
 .site-nav .link:hover,
@@ -112,6 +116,14 @@ a{
     font-size: 36px;
     line-height: 1,2;
     text-align: center;
+}
+
+.section-team{
+    background-color: #F5F4FA;
+}
+
+.team-list{
+    background-color: #FFFFFF;
 }
 
 .name{
@@ -188,3 +200,4 @@ a{
     font-size: 16px;
     line-height: 1,9;
 }
+lin
